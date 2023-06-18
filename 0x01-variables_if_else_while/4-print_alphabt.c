@@ -8,12 +8,10 @@
 int main(void)
 {
 	char alpha;
-	char e;
-	char q;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		if (alpha != e && alpha != q)
+		if (alpha != 'e' && alpha != 'q')
 		putchar(alpha);
 	}
 	putchar('\n');
