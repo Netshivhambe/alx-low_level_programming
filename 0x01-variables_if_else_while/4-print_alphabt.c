@@ -4,6 +4,7 @@
  *
  * Return: 0
  */
+
 int main(void)
 {
 	char alpha;
@@ -11,8 +12,10 @@ int main(void)
 	char q;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
 		if (alpha != e && alpha != q)
 		putchar(alpha);
+	}
 	putchar('\n');
 	return (0);
 }
