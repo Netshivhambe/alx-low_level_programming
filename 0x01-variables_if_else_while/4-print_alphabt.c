@@ -10,9 +10,6 @@ int main(void)
 	char e;
 	char q;
 
-	e = "e";
-	q = "q";
-
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 		if (alpha != e && alpha != q)
 		putchar(alpha);
