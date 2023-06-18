@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	char alpha, e, q;
+	char alpha;
+	char e;
+	char q;
 
 	e = "e";
 	q = "q";
