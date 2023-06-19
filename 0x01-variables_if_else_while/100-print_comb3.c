@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(lows);
 				putchar(highs);
-				if (!(lows == '9' && highs == '8'))
+				if (!(highs == '9' && lows == '8'))
 				{
 					putchar(',');
 					putchar(' ');
