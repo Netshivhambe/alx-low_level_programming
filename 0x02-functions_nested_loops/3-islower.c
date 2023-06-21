@@ -6,10 +6,10 @@
  * Return: 1
  */
 
-int _islower(int alpha)
+int _islower(int c)
 
 {
-	if (alpha >= 97 && alpha <= 122)
+	if (c >= 97 && c <= 122)
 	{
 	return (1);
 	}
